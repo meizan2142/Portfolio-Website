@@ -111,3 +111,43 @@ main {
     align-items: center;
     margin-top: 20px;
 }
+
+.another-section {
+    text-align: center;
+}
+
+.another-section {
+    text-align: center;
+    padding: 30px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.skill1 {
+    height: 170px;
+    background-color: whitesmoke;
+    margin-right: 20px;
+    padding: 20px 20px 20px 20px;
+}
+.skill2 {
+    height: 170px;
+    background-color: whitesmoke;
+    margin-right: 20px;
+    padding: 20px 20px 20px 20px;
+}
+.skill3 {
+    height: 170px;
+    background-color: whitesmoke;
+    margin-right: 20px;
+    padding: 20px 20px 20px 20px;
+}
+.skill4 {
+    height: 170px;
+    background-color: whitesmoke;
+    padding: 20px 20px 20px 20px;
+}
