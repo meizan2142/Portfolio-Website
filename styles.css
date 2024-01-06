@@ -161,10 +161,10 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #FFF8F3;
 }
 
 .form {
-    background-color: #FFF8F3;
     margin-top: 50px;
 }
 
@@ -178,7 +178,11 @@ main {
 .form  input, textarea {
     margin-bottom: 22px;
     padding: 18px 35px;
-    background-attachment: white;
+    background-color: white;
     border: none;
+}
+
+.connect p {
+    width: 500px;
 }
 
