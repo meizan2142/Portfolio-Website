@@ -68,6 +68,9 @@ nav ul li button:hover {
 
 .header {
     background-color: #FFF8F3;
+    background-image: url(icons/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner {
@@ -82,3 +85,29 @@ nav ul li button:hover {
     gap: 20px;
 }
 
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px 0;
+}
+.about .section-title {
+    text-align: center;
+}
+
+.about .section-description {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
