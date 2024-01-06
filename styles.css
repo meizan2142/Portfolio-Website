@@ -164,11 +164,21 @@ main {
 }
 
 .form {
+    background-color: #FFF8F3;
+    margin-top: 50px;
 }
 
 .form input {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+
 }
+
+.form  input, textarea {
+    margin-bottom: 22px;
+    padding: 18px 35px;
+    background-attachment: white;
+    border: none;
+}
+
