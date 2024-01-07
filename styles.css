@@ -68,9 +68,9 @@ nav ul li button:hover {
 
 .header {
     background-color: #FFF8F3;
-    background-image: url(icons/header_bg.png);
+    background-image: url('icons/header_bg.png'), url('icons/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -168,7 +168,7 @@ main {
     margin-top: 50px;
 }
 
-.form input {
+.form input, button {
     display: flex;
     justify-content: center;
     align-items: center;
